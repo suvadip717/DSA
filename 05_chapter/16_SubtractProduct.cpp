@@ -15,6 +15,7 @@ int main()
     pro *= rem;
     n /= 10;
   }
-  cout << sum << " " << pro << endl;
+  ans = pro - sum;
+  cout << ans << endl;
   return 0;
 }
